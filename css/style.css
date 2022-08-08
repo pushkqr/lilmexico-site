@@ -18,6 +18,9 @@ body {
 
 }
 
+nav{
+    line-height: 1.45;
+}
 a:hover{
     color:darkgray;
 }	
