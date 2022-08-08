@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.css">  
+	<title>Contact Us</title>
+  </head>
+  <body>
+	<h1 id="topContact">Please write a review!</h1>
+	<hr>
+	<nav>
+	  <ul>
+	  	<li><a href="index.html">Home</a></li>
+	  	<li><a href="index.html#about">About Us</a></li>
+	  	<li><a href="index.html#menu">Our Menu</a></li>
+	  	<li><a href="hours.html">Store Hours</a></li>
+	  <ul>
+	</nav>
+	<hr>
+	<fieldset>
+	  <legend>Send us a message</legend>
+	  <form action="https://httpbin.org/post" method="post">
+	     <p>		
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name">
+	     </p>		
+	     <p>
+		<label for="mail">E-mail:</label>
+		<input type="email" name="mail" id="mail">
+	     </p>
+	     <p>
+		<label for="message" id="temp">Your Message:</label>
+		<br>
+		<textarea name="message" id="message" cols="40" rows="10" placeholder="write your message here"></textarea>
+	     </p>
+	  <button type="submit">Submit</button>
+	  <button type="reset">Reset</button>
+	  </form>
+	</fieldset>
+	<hr>
+	<fieldset>
+		<legend>Our Location</legend>
+		<address>
+		  <p>Lane Number 5, next to Nandan Prospera, Laxman Nagar, Balewadi, Pune, Maharashtra 411045</p>
+		Phone:<a href="tel:072628 09595">072628 09595</a>		
+		<br><br>		
+		<a href="#topContact">Back to Top</a>	
+		</address>	
+	</fieldset>
+		<hr>
+		<p>Copyright &copy Lil' Mexico</p>
+  </body>
+</html>
