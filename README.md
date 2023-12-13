@@ -1,4 +1,4 @@
-# Lil Mexico Website
+# Lil Mexico
 
 Welcome to the Lil Mexico website, a static platform dedicated to showcasing the rich culture, vibrant community, and diverse experiences of Lil Mexico. This README provides an overview of the website and instructions for developers and contributors.
 
